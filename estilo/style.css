@@ -18,6 +18,7 @@
 
 html{
     scroll-behavior: smooth;
+    height: 100vh; 
 }
 
 nav{
@@ -107,6 +108,7 @@ section.imagem{
     padding-right: 102px;
     background-repeat: no-repeat;
     font-size: 1.6em;
+    
     
 }
 
