@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+:root{
+    --cor0:#90E6E8;
+    --cor1:#49E0E3;
+    --cor2:#0B6566;
+    --cor3:#38AEB0;
+
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgba(5, 44, 151, 0.669);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0,0,0,0.363);
+    height: 30px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    font-size: 21px;
+}
+
+nav > a:hover{
+    background-color: var(--cor0);
+    color: var(--cor5);
+}
+
+header{
+    font-family: 'Russo One', sans-serif;
+    padding-top: 2.8em;
+    text-align: center;
+    background-color: rgba(4, 43, 152, 0.568);
+    color: white;
+    font-size: 3em;
+    height: 11.5em;
+}
+
+header > p{
+    margin-top: 1.2em;
+    padding-top: 20px;
+    font-size: 0.4em;
+    background-color: rgba(88, 115, 188, 0.33);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+section#redes-sociais{
+    text-align: center;
+   
+}
+section#redes-sociais img{
+    width: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .5s, border 1s;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    /*padding-left: 60px*/
+    font-size: 2.1vw;
+}
+
+section.imagem{
+    background-color: rgba(4, 43, 152, 0.811);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    text-align: right;
+    padding-right: 82px;
+    background-repeat: no-repeat;
+}
+
+section#img01{
+    background-image: url('../imagens/diploma.png');
+    background-position: left center;
+}
+
+section.imagem2{
+    background-color: rgba(4, 43, 152, 0.568);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    text-align: left;
+    padding-left: 40px;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+
+section#img02{
+    background-image: url('../imagens/curriculo.png');
+    background-position: right center;
+   
+}
+
+section.video{
+    background-color: rgba(4, 43, 152, 0.811);
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video001 > iframe{
+    position :absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+
+footer{
+background-color: rgb(1, 4, 86);
+color: white;
+text-align: center;
+height: 2em;
+padding-top: 1em;
+
+}
