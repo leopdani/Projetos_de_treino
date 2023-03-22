@@ -13,6 +13,7 @@
 *{
     margin: 0px;
     border: 0px;
+    
 }
 
 html{
@@ -27,6 +28,8 @@ nav{
     padding-top: 15px;
     position: fixed;
     width: 100%;
+    text-align: right;
+    
 
 }
 
@@ -38,6 +41,8 @@ nav > a{
     font-weight: bold;
     transition-duration: 0.5s;
     font-size: 21px;
+    padding-right: 25px;
+    
 }
 
 nav > a:hover{
@@ -47,17 +52,18 @@ nav > a:hover{
 
 header{
     font-family: 'Russo One', sans-serif;
-    padding-top: 2.8em;
+    padding-top: 2.1em;
     text-align: center;
     background-color: rgba(4, 43, 152, 0.568);
     color: white;
     font-size: 3em;
-    height: 11.5em;
+    height: 460px;
+    
 }
 
 header > p{
-    margin-top: 1.2em;
-    padding-top: 20px;
+    margin-top: 0.6em;
+    padding-top: 15px;
     font-size: 0.4em;
     background-color: rgba(88, 115, 188, 0.33);
     color: white;
@@ -90,6 +96,7 @@ section{
     line-height: 2em;
     /*padding-left: 60px*/
     font-size: 2.1vw;
+    
 }
 
 section.imagem{
@@ -97,8 +104,10 @@ section.imagem{
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     text-align: right;
-    padding-right: 82px;
+    padding-right: 102px;
     background-repeat: no-repeat;
+    font-size: 1.6em;
+    
 }
 
 section#img01{
@@ -112,7 +121,7 @@ section.imagem2{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     text-align: left;
     padding-left: 40px;
-    font-size: 20px;
+    font-size: 1.6em;
     background-repeat: no-repeat;
 }
 
